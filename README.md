@@ -5,13 +5,13 @@ A tool collect clickhouse metrics and events to graphite
 * set clickhouse and graphite info in docker-compose.yaml
 		
 		
-  environment:
-          CLICKHOUSE_HOSTS: host1:8123,host2:8123
-          CLICKHOUSE_USER: user1
-          CLICKHOUSE_PASS: pass111
-          CLICKHOUSE_CLUSTER_NAME: clickhouse.cluster1
-          GRAPHITE_HOST: host3
-          GRAPHITE_PORT: 2003
+		  environment:
+			  CLICKHOUSE_HOSTS: host1:8123,host2:8123
+			  CLICKHOUSE_USER: user1
+			  CLICKHOUSE_PASS: pass111
+			  CLICKHOUSE_CLUSTER_NAME: clickhouse.cluster1
+			  GRAPHITE_HOST: host3
+			  GRAPHITE_PORT: 2003
 		
 		
 * start docker
