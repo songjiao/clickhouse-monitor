@@ -30,3 +30,5 @@ and select system.metric system.events from each clickhouse host and then use nc
 
 ## Data visualization
 just import dashboard.json into grafana
+![](https://github.com/songjiao/clickhouse-monitor/blob/master/Screenshot1.png?raw=true)
+![](https://github.com/songjiao/clickhouse-monitor/blob/master/Screenshot2.png?raw=true)
