@@ -17,3 +17,6 @@ COPY *.sh /opt/ofelia/
 
 WORKDIR /opt/ofelia
 
+ENTRYPOINT ["/opt/ofelia/ofelia"]
+
+CMD ["daemon", "--config", "/opt/ofelia/conf.ini"]
